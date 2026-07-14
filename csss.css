@@ -201,3 +201,13 @@ canvas {
   text-shadow: 0 0 10px #ff4444;
   transform: scale(1.05); 
 }
+#contador{
+  width:20%;
+  height:auto
+  transition color 0.5s ease, text-shadow 0.5s ease, transform 0.5s ease;
+}
+#contador:hover {
+  color: #ff4444;
+  text-shadow: 0 0 10px #ff4444;
+  transform: scale(1.20);
+}
